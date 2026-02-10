@@ -1,0 +1,113 @@
+Identifers
+Varibles
+GarbagesCollector
+Comments
+indentation
+
+
+
+
+1. Identifers -  snakecase -total_sal, final_price
+
+Names that are used for the identity.
+Variables - name= 'Anu'
+function
+classes
+objects 
+modules
+
+
+examples
+name = "Deepika"
+class = "python
+
+function
+def greet():
+        print('Hello')
+
+
+class identifier-
+class Student:
+        pass
+
+Rules-
+1. can contain letters,digits, underscore
+student1
+first_name
+name1 
+
+2. Must start with letter or underscore
+name
+_age
+
+
+3. case sensitive
+
+n = "A";
+N = "a";
+
+
+4. cant start with digits
+1name
+
+5.no special symbols
+total$, my-name
+
+6.Keywords are not allowed 
+if, for, def, pass, print, classc, while, break
+
+
+
+
+Varaibles - 
+Which hold a data or it is an identifer which holds a values
+ 
+
+ why??
+ To store the value and we can use it.
+ We cn perform some opertaions
+ it allocates some memory
+
+
+syntax:
+variable_name = varaible_value;
+
+name = 'Anu';
+course = 'Python'
+a =5
+
+
+
+remember- All the Varaibles can be an identifier but not all the identifiers can be varaibles
+
+
+
+Constant - Captial letters
+indentation- In default python is going to provide spaces those are called block
+in js
+
+
+1tab or 4spaces
+
+
+so it says which statement belong to which block- where the block start and ends.
+
+for(){
+
+}
+in python
+
+def greet():
+     print('Hello')
+greet()
+
+if age>18:
+print("Hello your are 18")
+
+
+comments-
+we write soemline/code for refernce where the python will ignore.
+
+singlelinecomments - #
+docstring - '''     ''' - used for documentation
+  in js- /* */

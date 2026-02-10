@@ -1,0 +1,47 @@
+Datatype:
+Datatypes is nothing butb what type of data is being assigned to a varible is called datatype
+
+why:
+to save the storage in the meory
+to know what kind of data does the varibles holds
+we can perform operations
+we can also modify
+
+
+
+types of Datatypes
+
+primitive-
+single values(scalar), which are immutable 
+
+int - integer/intergeral - whole number , +ve and -ve values, no precision 
+wher - age, salary, max-limit,
+float - which has decimal values - . , 3.14, 45666.67 - Electronic
+complex - 3 + 5j  - left(real), right(imaginary)
+boolean- bool - True, False -  0's and 1's
+
+
+Non primitive-
+There are hetergenous, mutable
+these are again classified into the following..
+Sequentical datatypes - index (basically start from 0)
+
+
+string-  
+
+
+' ' , " " , ''' '''
+
+list - [], mutable, indexes, hetergenous
+tuple - (), hetergenous, index, cant modify, immutable
+
+
+non sequetical datatypes- set - these cant be acessed by indexes
+{}, no index values, but we can add the add the data/ remove ,we cant modified, hetergenous
+
+dict - key-value pairs - 
+
+
+id-   memory allocation
+type-
+sys.sizeof()
