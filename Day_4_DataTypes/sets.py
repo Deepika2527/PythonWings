@@ -6,5 +6,5 @@ s.add(970)
 print(s)
 s.remove(23)
 
-s1 = {45,"hello"}
+s1 = {45,"hello", 45}
 print(s1)

@@ -42,14 +42,14 @@ print(l)
 l.remove(100)
 print(l)
 
-l1 = [12,True, 14.6, [3,5,6,7,'hello']]
+l1 = [12,12,True, 14.6, [3,5,6,7,'hello']]
 print(l1)
 
 print(l1[3])
-print(l1[3][2])
+# print(l1[3][2])
 
 # tuple
-t = (1,6,9,0,90)
+t = (1,6,9,0,90,0)
 print(t)
 print(t[0]) 
 # t[0] = 100

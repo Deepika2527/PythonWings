@@ -18,7 +18,7 @@ int - integer/intergeral - whole number , +ve and -ve values, no precision
 wher - age, salary, max-limit,
 float - which has decimal values - . , 3.14, 45666.67 - Electronic
 complex - 3 + 5j  - left(real), right(imaginary)
-boolean- bool - True, False -  0's and 1's
+boolean- bool - True, False -  1's and 0's
 
 
 Non primitive-
@@ -32,8 +32,8 @@ string-
 
 ' ' , " " , ''' '''
 
-list - [], mutable, indexes, hetergenous
-tuple - (), hetergenous, index, cant modify, immutable
+list - [], mutable, indexes, hetergenous, order, duplicates are allowed
+tuple - (), hetergenous, index, cant modify, immutable, ordered, duplicated
 
 
 non sequetical datatypes- set - these cant be acessed by indexes

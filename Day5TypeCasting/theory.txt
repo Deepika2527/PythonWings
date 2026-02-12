@@ -1,0 +1,24 @@
+TypeCasting:
+
+Converting one datatype into anther datatype is called typeCasting/TypeConversion
+
+These are classified in two types
+1. Implict-
+Automatically the data will be converted by the python
+Data will not be loss
+int -> float ->complex
+
+2. Explict-
+We will explicitlu use some methods to covert the data
+
+int()
+float()
+str()
+bool()
+complex()
+
+
+BaseCoverstion
+binary - 0b/ 0B - 0's and 1's
+octa - 0c/OC- 0-7
+hex - 0x/0X- a-f -0-7

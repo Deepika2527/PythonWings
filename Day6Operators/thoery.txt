@@ -1,0 +1,54 @@
+Operators -
+
+Operators are the symbols that are used to perform between operands
+Operands - The varaibales/ values
+
+1. Arthematic Operator  -Done
++ , - ,%, / , //, *, **, 
+a+b
+a-b
+a*c
+
+syntax = res = op1 + op 2
+
+2. Realtional/comparsion - boolean- Done
+<
+>
+<=
+>=
+
+3. Equlaity Operators - boolean - Done
+== - check the value
+!=
+
+4.logical operators - Boolean
+and
+or
+not
+
+5. Bitwise -
+AND -&
+XOR  -  ^
+NOT - ~
+
+6. Shiftoperators
+<<  - Left shift
+>>  - right shift
+
+7. Assisgmnet
+=, +=, -=,....
+
+
+8.Identity - Boolean
+is, is not
+
+
+9. Membership - Boolean
+
+
+in, not in
+
+
+10- Teranry
+
+value_is_true if condtiotion else value_is_false
