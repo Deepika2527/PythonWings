@@ -11,7 +11,7 @@ a*c
 
 syntax = res = op1 + op 2
 
-2. Realtional/comparsion - boolean- Done
+2. Relational/comparsion - boolean- Done
 <
 >
 <=
@@ -22,9 +22,19 @@ syntax = res = op1 + op 2
 !=
 
 4.logical operators - Boolean
-and
+and -
+
+T T -T
+T F - F
+F T - F
+F F - F 
 or
-not
+T T - T
+T F - T
+F T - T
+F F - F
+not 
+OPP
 
 5. Bitwise -
 AND -&
@@ -35,11 +45,11 @@ NOT - ~
 <<  - Left shift
 >>  - right shift
 
-7. Assisgmnet
+7. Assisgmnet  - Done
 =, +=, -=,....
 
 
-8.Identity - Boolean
+8.Identity - Boolean  - Done
 is, is not
 
 

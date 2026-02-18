@@ -1,0 +1,43 @@
+input()-
+ its a python inbuilt method, by default this is a string.
+ This is used to collect the user input's
+
+
+ Flow control
+ In python Flow control is like the oreder in which the lines are exectued in the program
+ By default python exectues line by line
+
+
+ * Make decisions
+ * Iterations-Repeated actions can be done
+ * Skip some code
+ * Stop exection
+
+
+
+ In python control Flow is basically classified into 3 types
+ * Condtional statements/ Decision Makers CD
+ * Iternation/ looping statements   LI
+ * Control Statement /transfer Statements CT
+
+
+ * Condtional statements/ Decision Makers
+    * if- To check some condition, if it is True the block of code will be executed.
+    If the condition is not matching then there would ne no output.
+    *Syntax -
+         if(condition):
+            //block of code
+
+ *if-else - 
+            *Used to check the codtion for T or F
+            *If true, the True block will be executed, else the False block will be exectued
+        Syntax:
+        if(Condtion):
+            //block of code
+        else(Condtion):
+            //block of code.
+    
+ *elif
+ *NestedIf
+ *Ternary 
+

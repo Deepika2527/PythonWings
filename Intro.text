@@ -1,0 +1,83 @@
+What is python?
+
+
+
+what is a programming language?
+Language - exchanges thoughts of taughts or information
+
+programming Language- binary lang - 0's and 1's
+english  - developrs/user
+
+
+the bridge between these languages can be build by using compiler or the interpreter
+
+
+Types of languages-
+Low  - Machine level language/assembly
+
+High - Compiler / interpreter / compiler+interpreter(Hybrid) -
+java
+js
+pythonphp, c, c++...
+
+
+
+compiler - translate the complete recipe into english  into book, then the
+ book is handoverd to you
+
+ interpreter - translate  line by line and we are going to cook in parallel.
+
+
+in c->
+
+.c ---->(compiler)----> .exc ---> output
+
+
+python is  a hybrid language - Compiler+ interpreter
+
+.py->.pyc(bytecode)--> Pvm->RuntimeEniv source/output 
+       compiler
+
+what is platform -> os
+
+window                mac     linux
+
+.c->.windowc     .c->.mac    .c->.linux
+
+
+.pyc->.wBytecode  .wBytecode   .wBytecode
+
+
+
+
+why python
+
+its easy to understand
+platform indepen..
+hybrid lang..
+Dynamically typed- a- 12 b -3.14, c= True(boolean)
+Grabagecollector- 
+scripting language
+datacentric- ML, AL, DA,Ds
+GeneralPurpose
+Paradigm- style of writing programming
+
+Procedular - step by step
+Function - Block of code, can be called repeatedaly when it is invoked
+Modules- Grup of functions
+Oops - data, methods, objects
+
+
+
+Python Libraries/Modules
+Desktop App  - Tkinter, pyside
+webSupport - flask/django
+Games- Para3d,pygames
+Database - sqllite, pymysql,
+Ds- Numpy, pandsa, Tensorflow...
+
+
+
+Vanilla python-
+iron- c#, dotnet
+Jpython- 

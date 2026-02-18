@@ -74,3 +74,17 @@ c = a+b
 
 
 
+s = 12
+print("Printing...")
+print(s)
+print(type(s))
+
+
+a = 10
+print(a)
+print(id(a))
+
+
+a = "hello"
+print(a)
+print(id(a))
