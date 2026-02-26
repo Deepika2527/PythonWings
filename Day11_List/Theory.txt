@@ -1,0 +1,37 @@
+List :
+Its a collection of elements, we can store the elements in a heterogenous format
+List is denoted [ ]
+Mutable which means we can change the data
+Allows Duplicates
+Ordered , the output will be in Ordered
+Its a squence type of data type
+
+
+How it workks with operators
++ , * , members in, not, ==
+
+
+for,while,range,len,enumerate
+
+it accepts indexing- postive and negative
+
+
+slicing is supporting
+
+
+Methods
+Adding :
+Extend
+Insert
+Append
+
+Removing
+Pop()
+remove()
+clear()
+
+index()
+sort()
+reverse()
+count()
+
