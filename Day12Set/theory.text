@@ -1,0 +1,49 @@
+Set and its Methods
+
+
+Definition:
+     set is denoted with {},
+     set is unoredered
+     it will not allow duplicates
+     it heterogenous - collections of different types of datatypes
+     set will not have index's
+     so we cant perofrm indexing values or slicing
+
+ways to defineset
+common way
+constructor - set
+
+
+
+set  will not supports  addtion or reptition(*)
+it membership
+traversal range,enumerate
+
+
+Methods
+add()
+update()
+remove()
+pop()
+discard()
+union()
+intersection()
+differnce()
+symmernyrics_differnce()
+intersection_update()
+disjoin()
+copy()
+
+
+
+
+
+keytakeaways
+1. The type of empty set will gives you dict -{}
+2. Add() wil be taking only 1 argument and update will fake 2 which are mandatory else errro if we take one argument in update
+3. Using add we cant take dict but update method will take dict but return only keys
+4. diff between remove and discard() if we try to remove the value that is not present remove will throw KeyError where discard will not throw any error
+5. interestion and intersection_update ; intersection will returns new set where as intersection_update will modify the original set
+6. we use ((vale,)) to update tuple in add()
+7. we use (((v1,v2),)) to upodate tuple in update()
+8. if we give single string in update (("hi")) it will split as {'hi','i'} but if we givr(("bi",)) it will take as {"bi"}
