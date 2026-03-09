@@ -1,0 +1,66 @@
+Comprehensions-
+Python provides a way to write the code in a shorter way
+
+These are clasified into 
+List comprehesnions
+Set Comprehensions
+dict Comprehensions
+
+tuple comprehension - this will create the genertors id 
+
+
+way to definr Comprehensions
+list - 
+List comprehension will be returning the new list where each an item will be iterable
+
+
+
+[expression for item in iterable]
+
+expression - can be anything i*i, i+i
+for - loop
+item - i, j, k -varaibale
+iterable - list/set/dict
+
+
+ways to remeber
+ste 1: create the list [] store it ina varaible
+step2 : [first define loop for i in iterable(list/dict/set)]
+step 3: [exp*exp for exp in [list]]
+
+
+list comprehension using if
+synatx 
+[exp for item in iterable if_condition]
+ex:
+[i for i in [1,2,4] if i%2==0]
+
+
+list comprehension using if-else
+synatx:
+[exp_if_true if condtion else exp_if_false for item in iterable]
+
+
+
+dictcomprehension
+
+This is the short way to create a new dict;
+It return a new dictonary whre each and every item will be iterated  from the iterable
+
+basic syntax:
+{exp_k :  exp_v for item in iterable}
+exp_k : exp-v - Keys : value
+for - loop
+item - varaible
+iterable - can thing
+
+
+if condition:
+{expK: expv for item in iterable if_condition}
+
+if_else condtion
+{exp_Truek : exp_TrueV if condtion else exp_False for item in iterable  }
+
+
+
+

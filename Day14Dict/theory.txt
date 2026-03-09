@@ -1,0 +1,34 @@
+dict -
+key-value pairs, which is represented in {},
+This is mutuable, they can access by the indexes but they can be acessed through keys
+They allow hetergenous kind of data
+
+ways we define dictonary
+Normal way
+Using list
+Using tuple
+Keyword arguments
+
+
+
+
+methods
+keys()
+items()
+values()
+setdefaukt()
+get()
+pop()
+popItne()
+update()
+copy()
+fromkeys()
+
+
+
+
+
+KeyTakeAwayPoints
+1. Keys should be unique, but id yu give the same key the last value will be update with the same key.
+2. As a value we can take any datatype but as a key we cant take LSD - List, Set and Dict
+3. The differnce between setdeault and get setdeault will modify the original data where get will ot modify, else we can retrieve a value using key , and uopdate a key-value aswell

@@ -1,0 +1,11 @@
+tuple -
+tuple is denoted by ()
+tuple allows hetergenous data
+tuple is immutable
+it allows duplicates
+tuple is an ordered, sequence
+
+max()
+min()
+len()
+count()
