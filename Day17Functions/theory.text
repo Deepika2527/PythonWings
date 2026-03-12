@@ -1,0 +1,60 @@
+Functions:
+Function is a block of code for repetative task, by calling it
+
+print("Hello all")
+print("Hello all")
+print("Hello all")
+print("Hello all")
+print("Hello all")
+--------------------------------------------------------------------------------------
+syntax of fucntion:
+def function_name():
+    statemnets
+function_name()
+
+def - define a function
+function_name: snake_case - test(),display(),maths(),greet(), please follow the identifier rules
+() : placeholder
+: - This define the block and indentation
+statemnets - print()
+
+function_name() - calling a function
+
+--------------------------------------------------------------------------
+Type of Functions
+1. Buitin Functions
+2. User defined Functions
+
+
+
+1. Built in functions :
+These fucntions has a special meaning, where it is pre-defined by the python
+print()
+len()
+range()
+enumerate()
+list()
+
+
+How can we know the buitin functions in python
+dir(__buitins__)
+
+dir - This will list out all the methods of that object
+builtin - Special object that can contains all the fucntions
+__ - magicnames/specialnames
+
+
+2. User defined functions :
+These are define by the user based on the logic
+
+Types of user defined functions
+1. Basic function
+    a. function without return statemnets
+    b. function with return statemnets
+2. Funtional Argument
+     a. Positional arguments
+     b. keyword arguments
+     c. Default arguments
+     d . Varaible length positional argumentgs - *arguments
+     e . Keyword varaible length arguments - **kwargs
+

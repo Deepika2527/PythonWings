@@ -1,0 +1,29 @@
+* Iternation/ looping statements   LI
+for 
+while
+
+
+forLoop:
+For loop is ised to repeat th bloack of coder mutliple times by iterating over the sequence.
+
+
+Sequence can be..
+List
+tuple
+string
+set
+dict
+range()
+
+
+syntax:
+for varaible in the sequence:
+  statement
+
+
+
+
+Control Statements:
+break
+continue
+pass
