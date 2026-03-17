@@ -7,9 +7,9 @@ print("Hello all")
 print("Hello all")
 print("Hello all")
 --------------------------------------------------------------------------------------
-syntax of fucntion:
+syntax of function:
 def function_name():
-    statemnets
+    statements
 function_name()
 
 def - define a function
@@ -50,11 +50,18 @@ These are define by the user based on the logic
 Types of user defined functions
 1. Basic function
     a. function without return statemnets
-    b. function with return statemnets
+    b. function with return statemnets:
+       * After retun if we write the statement it will not execute
+       * If we dont use return and tries to print the function using assigning to a varaibale then it return None
+       * return will returns tuple with mutiple operations
 2. Funtional Argument
      a. Positional arguments
+        These are the values that are being passed as a aruguments for the parameter based on the postition
+        def add(p1,p2):
+           #statements
+        add(a1,a2)
      b. keyword arguments
      c. Default arguments
-     d . Varaible length positional argumentgs - *arguments
+     d . Varaible length positional arguments - *arguments
      e . Keyword varaible length arguments - **kwargs
 
