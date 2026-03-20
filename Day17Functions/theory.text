@@ -54,14 +54,35 @@ Types of user defined functions
        * After retun if we write the statement it will not execute
        * If we dont use return and tries to print the function using assigning to a varaibale then it return None
        * return will returns tuple with mutiple operations
-2. Funtional Argument
+2. Functional Argument
      a. Positional arguments
         These are the values that are being passed as a aruguments for the parameter based on the postition
         def add(p1,p2):
            #statements
         add(a1,a2)
-     b. keyword arguments
-     c. Default arguments
+     b. keyword arguments :
+     These are the functions that are being passed as a argumenets based on the keywords.
+     c. Default arguments - task
      d . Varaible length positional arguments - *arguments
+     when we want to pass so many as argumenst we use *arg
+     this will return tuple
      e . Keyword varaible length arguments - **kwargs
+     This will return the dict
+     values should be passed in key-values
+     synatx:
+     def test(**kwargs):
+          statement
+      test(k='v',k1='v1')
 
+
+
+keytakeAways:
+When we work with both postional and keyword arguments, first positional arguments then keyword arguments
+
+
+
+
+
+
+# task1 onbvert tupel into list
+#  task 2 how doe unpackin g works with args

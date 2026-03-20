@@ -1,0 +1,10 @@
+Scopes:
+
+Local Scopes
+global Scopes
+enclosing Scopes
+builtin - print()
+
+
+global - keywird where it will change the value of the varaible that is deined globally
+global var
