@@ -59,3 +59,26 @@ show_stud(
     {"name" :"Rahul",
      "age":22}
 )
+
+# print("recusrive funtion")
+# def fact(n):
+#     if n ==0:
+#         return 1z
+#     else:
+#         return n*fact(n-1)
+# print(fact(5))
+# print("fbonacci series")
+# def fib(n):
+#     if n<=1:
+#         return n
+#     else:
+#         return fib(n-1)+fib(n-2)
+# print(fib(11))
+
+# print("recursive function to find sum of n natural numbers")
+# def sum_taotal(n):
+#     if n<=1:
+#         return n
+#     else:
+#         return n+sum_taotal(n-1)
+# print(sum_taotal(11))

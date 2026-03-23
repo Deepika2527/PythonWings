@@ -1,0 +1,39 @@
+Recursive function
+Highorder functions/callback/closure
+Map
+filter
+reduce
+
+Recursive : function calling itself is call Recursive
+factiral n *n-1
+fib : 0 1 1 2 3 5 8 
+sum : total...
+
+
+
+Highorder function:
+1: A fucntion accepting another function as argument is a hof
+2: A function with retuning value is considered as hof
+
+
+
+lambda: shorter way to write the function
+defined withn a keyword lambda
+
+synatx
+var = lambda  var: expression
+
+ex:
+res = lambda n : n*n
+
+def sq(n):
+    print(n *n)
+sq(2)
+
+
+
+
+map(): It will map through each and every ele in the list
+syntax:
+map(function, varaible)
+
