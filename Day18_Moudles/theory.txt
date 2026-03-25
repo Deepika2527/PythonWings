@@ -1,0 +1,12 @@
+Modules
+A piece of code where it contains varaibale, classes function ,
+these can be used in differnent files.py
+userdeined Modules
+stndarlib.py
+
+
+import Modules
+import modules as m
+from modules import mem1, mem2
+from modules import *
+form modules import mem1 as s
