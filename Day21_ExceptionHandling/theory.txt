@@ -1,0 +1,42 @@
+What is Exception
+what are errors
+Types of errors
+what is exception Handling
+
+
+
+what Is Exception
+Errors aside during the runtime and this will stop the execttion of the program
+
+Errors:
+Syntax error:
+Runtime error:
+Logical error:
+
+Syntax error: these are like grammatical errors, while are seen during then parsing phase of the code
+missing a :,
+whiile
+"name
+print()
+
+
+Runtime error: These are the errors that are raided during the runtime
+
+zerodivison
+nameerror
+valueerror
+keyerror
+rangerror
+indettation error
+
+
+
+exception handling:
+try,except, finally
+syntax:
+try:
+    #riskycode
+except:
+    #handled the code
+finally:
+    however you ar egetting the output

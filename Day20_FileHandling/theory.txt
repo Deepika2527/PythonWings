@@ -1,0 +1,38 @@
+csv file
+comma separted values
+the data will look like a tabular form which has rows and column
+
+
+why do we need csv 
+these are the light weight files
+dataAnalytics
+data from the sql
+create .csv
+
+
+
+how to work on the csv files
+import csv
+
+reader() : read the file
+writer() : write the data the into the csvfile
+
+r,w,a
+
+
+csv files can be created in 2 ways
+one is the normal way and the secon on is using dictReader dictwriter
+
+
+writerow - you can create a rows
+writerows - you can create mutiple rows
+dictReader - 
+dictwriter
+writeHeader-
+
+
+steps:
+step1 : import csv module
+step 2: create a varaible_object = open("filename","mode")
+step3 : csv.reader( create a varaible_object)
+step4 : for loop to print
