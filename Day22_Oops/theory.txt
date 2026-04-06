@@ -1,0 +1,74 @@
+OOPS:
+Object oriented prorgramming language.
+why Oops
+differnce oops and functions
+pillars of oops
+varaibles-types of varaibles
+
+
+OOPS:
+It is a collections of objects and methods
+we define this with a class keyword
+
+4 pillars
+1. class
+2. Constructor
+3. object
+4. methods
+
+
+1. class:
+   class is a blue print, which consists of 
+   vp - varaibles - properties - color,fueltype,name,
+   fm - functions - methods - start,stop,work
+
+
+   class Car:
+
+2. Constructor : This is a special method
+class Car:
+  def __init__(self):
+    pass
+what is the puprse:
+ which be Invked when the objects are created
+
+
+self - this is a keyword, which represent the current instance of the class.
+ 3. method:
+   class Car:
+     def __init__(self,p1,p2):
+       self.p1 = p1
+       self.p2 = p2
+    def display(self):
+    self.varaible = "xyz"
+    print(self.p1)
+    print(self.p2)
+
+4. object:
+ the refrence that we create for the class is called as an object
+ class Car:
+     def __init__(self,p1,p2):
+       self.p1 = p1
+       self.p2 = p2
+    def display(self):
+    self.varaible = "xyz"
+    print(self.p1)
+    print(self.p2)
+c= Car()
+c1 = Car()
+
+
+why we need oops
+1. Modularity
+2. scalability 
+3. security
+
+__dict__
+
+
+classes can defined with two type
+1. Normal class
+2. Paremetreized
+
+
+
