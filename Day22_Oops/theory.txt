@@ -47,6 +47,7 @@ self - this is a keyword, which represent the current instance of the class.
 4. object:
  the refrence that we create for the class is called as an object
  class Car:
+
      def __init__(self,p1,p2):
        self.p1 = p1
        self.p2 = p2
@@ -70,5 +71,33 @@ classes can defined with two type
 1. Normal class
 2. Paremetreized
 
+
+varaibles -
+1. Instance varaible
+2. class or static varaible
+3. Local varaible
+
+
+
+1. Instance varaibleS:
+these are the varaibles, where the value of these varaibles will vary from one object to another object,.
+
+we can create instnce varaibles in 3 ways:
+1. inside the constructor using self keyword
+2. inside the instance method using self keyword.
+3. outside of the object using refrence object
+
+
+
+
+class or static varaible:
+These are the varaibles, where the values of these varaiable will not vary.
+
+
+we can create them using
+1. inside the class outside of the constructor
+2. inside the instance varaible using Class - className.varaible_name = value
+3. inside the class method or static method -
+4. outside of the class using the ClassName
 
 

@@ -39,9 +39,11 @@ class Car:
     def start(self):
         print(f"The car {self.name} -{self.color} has started")
 c  = Car()
-
+# print(c)
 c.start()
 print(c.name)
+
+
 
 
 # print(Car().start)
@@ -85,3 +87,5 @@ d.m1()
 d1 = Demo()
 d1.name = "Anu"
 d1.m1()
+
+
