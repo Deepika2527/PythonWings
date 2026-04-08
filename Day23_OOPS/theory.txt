@@ -1,0 +1,75 @@
+OOPS:
+Pillar of OOPS
+1. Inheritance
+2. Abstraction
+3. encapsulation
+4. Polymorphsim
+
+super()
+
+
+1.Inheritance: The child inherits the properties from the parent is called inheritance
+
+Parentclass: Baseclass/Superclass
+Child Class : Sub class/Dervied class
+
+
+
+Parent A(properties/methods)
+    to the child
+Child 
+
+
+we have 5 types of Inheritance
+1. single Inheritance
+2. Multiple Inheritance
+3. Multilevel Inheritance
+4. Herirachaly Inheritance
+5. Hybrid Inheritance
+
+
+
+1. Single Inheritance: one child will inherit the properties from the one parent is called single inheritance
+syntax:
+class A:
+  pass
+class B(A):
+pass
+
+2. Multiple Inheritance: When the child inherits the properties from bot the parenst is called multiple inheritance
+   parent 1     parent 2
+         
+         child(parent1,parent2)
+
+
+syntax:
+class A:
+    pass
+class B:
+   pass
+class C(A,B):
+    pass
+
+
+
+MRO: Method Resolution Object like the order of the inheritance
+
+
+
+
+
+4. Herirachaly Inheritance:
+   one Parent
+
+   child1   child2 child3
+
+
+syntax:
+class P:
+    pass
+class C1(P):
+    pass
+class C2(p):
+    pass
+
+ 
