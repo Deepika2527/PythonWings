@@ -1,0 +1,50 @@
+Encapuslation:
+It is a process of wrapping the data and methods
+
+
+we will be learning today
+public varaible  -
+protected  -
+private  -
+name mangling
+
+PublicVaraibles:
+The varaible where we can aceess it is called public PublicVaraibles
+
+
+protected varaibles: These are supposed to be modified in the child class.
+
+denoted with a single _
+
+syntax:
+self.name = name
+self._name = _name
+
+
+We are not suppose to change the data directly of the private vararible oustide of the objetc creation
+
+
+Private varaible: These are denoted with __
+these are modified with only setter and getter methods.
+
+setter methods - using the condtions we are setting the values
+
+   if 0< v >10
+getmethod: return statement
+
+syntax:
+def set_value(self):
+  based on the condition
+
+synatx:
+def get_value(self):
+return self.__varaiblename
+
+
+
+
+
+
+
+
+

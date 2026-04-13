@@ -8,7 +8,9 @@ class Dog(Animal):
 d = Dog()
 d.bark()
 d.talk()
-
+print("----------------------")
+a = Animal()
+a.talk()
 
 print("examples -2")
 
