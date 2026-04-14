@@ -1,0 +1,42 @@
+Abstraction: hididng the unnecessary/implenmentation details and showing the excat thimgs
+
+concrete
+interface
+Abstract
+
+
+concrete - A concrete is a complete class with implenetation of class and methods
+concrete class syntax:
+class Animal:
+    def __init(self,name):
+        self.name = name
+    def m1():
+    print(f"{self.name})
+interface : This will inhreits the abstract classa nd alos abstact methods, with no implenmentation
+
+class Car(Abc):
+   @abstactmethods
+   def method1(self):
+       pass
+   @abstactmethods
+   def method2(self):
+   pass
+class Child(Car):
+    def method1(self):
+       //block of code
+    def method2(self):
+       //block of code
+Abstact: This base will be inehrited from thr Abstarct class also has abstarct methods,it can also have its own methods
+
+class Parent(abc):
+   @abstactmethod
+   def met1():
+     pass
+    def m2():
+    print(slef.np1)
+class Child(Parent):
+ def m1():
+ //block of code
+
+ c = child()
+ 
