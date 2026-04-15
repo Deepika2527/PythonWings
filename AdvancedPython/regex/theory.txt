@@ -1,0 +1,47 @@
+Regex: Regular expression, which is used to extract the data/store the data/validate the data.
+
+
+Regex - pattern and text
+
+import re  we need import this module ******
+
+
+methods in regex
+match()   - This will return the match only if the data is at the beginning, and returns None
+syntax: re.match("pattern","text")
+
+search()   - It will search the entire string
+
+findall()  - This will return in the list format, this will reurn the empty [] if it is not presented
+iter()   - iterating and we can get the element we use span and group
+span()   - (0,5) - starting and ending
+group()   - group retun the group
+
+sub() - just like replace method
+synatx: re.sub("oldStr","newStr","Actualstring")
+
+quantifiers :
+* - zero or more
++  - one or more
+?  - zero or one  colour/color ?
+{max,min} - {2,4}
+{min,} -{2,}
+{,max} - {,5}
+\d - digits
+\w - charctersets
+\s - space
+charcterset - []
+[0-9]
+[a-zA-Z]
+
+
+greedy and non greedy
+
+
+rawstring r'
+
+
+
+
+
+
