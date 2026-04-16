@@ -13,7 +13,7 @@ syntax: re.match("pattern","text")
 search()   - It will search the entire string
 
 findall()  - This will return in the list format, this will reurn the empty [] if it is not presented
-iter()   - iterating and we can get the element we use span and group
+finditer()   - iterating and we can get the element we use span and group
 span()   - (0,5) - starting and ending
 group()   - group retun the group
 
@@ -27,16 +27,21 @@ quantifiers :
 {max,min} - {2,4}
 {min,} -{2,}
 {,max} - {,5}
+
+\w - letters+gits
+\W - symbols+spcase
 \d - digits
-\w - charctersets
+\D - non-numbrrs
+\w - words
 \s - space
+\S- non-whitespace
 charcterset - []
 [0-9]
 [a-zA-Z]
 
 
 greedy and non greedy
-
+z
 
 rawstring r'
 

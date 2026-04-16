@@ -109,7 +109,37 @@ res = spn.group()
 print(res)
 
 
+print("Part2")
+print(re.findall(".b","abc tbbc cbc"))
+print(re.findall(".a","bat mat rate late cape tap bag fat pattern latern"))
+print(re.findall(".a","1a"))
 
+
+print("Greedy")
+print(re.findall("a+","aaaaaaa"))
+print(re.findall("a+?","aaaaaa"))
+
+text = "<h1>Hello</h1><p>para</p>"
+print(re.findall("<.*>",text))
+print(re.findall("<.*?>",text))
+
+
+print(re.findall("\n","Hello\nworld"))
+print(re.findall(r"\n","Hello\nworld"))
+print(re.findall(r"\bworld","Hello world"))
+print(re.findall("\bworld","Hello world"))
+print(re.findall(r"\bworld\b","world HELLO world"))
+
+
+s = re.finditer("a","capsicuma")
+print(s)
+
+for i in s:
+    print(i.group(), i.span())
+
+
+
+print
 
 
 

@@ -14,7 +14,7 @@ class Animal:
     print(f"{self.name})
 interface : This will inhreits the abstract classa nd alos abstact methods, with no implenmentation
 
-class Car(Abc):
+class Car(ABC):
    @abstactmethods
    def method1(self):
        pass
