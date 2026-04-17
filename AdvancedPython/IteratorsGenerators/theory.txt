@@ -1,0 +1,25 @@
+Iterators:
+These are the special functions in python where it traverse over the sequences
+iter(), next()
+
+synatx :
+a = [1,2,4,5]
+
+varibale_name = iter(a)
+
+print(next(varibale_name))
+
+class : 
+def __iter__(self):
+    return self
+
+beacause when you create the object obj.__iter__(varaible)
+def __next__(self):
+   retun 
+
+   stopIteration
+
+Generators :
+
+
+
