@@ -1,7 +1,5 @@
 Iterators:
-These are the special functions in python where it traverse over the sequences
-iter(), next()
-
+iterators are used to iterate through a sequence of elements, but here’s the precise d
 synatx :
 a = [1,2,4,5]
 

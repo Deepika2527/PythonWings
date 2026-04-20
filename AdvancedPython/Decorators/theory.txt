@@ -1,0 +1,37 @@
+Decorators:Decorators help to add addtional funcationalites to the orginal code without modifying the existing code.
+
+synatx
+
+def decor(Actual function):
+    def wrapper():
+       if (condotio):
+        //blco of code
+        Actual function()
+        //blcok of code
+       else:
+    retun the wrapped     //
+        
+@decor
+def Actualfunction():
+  //block of code
+Actualfunction()
+
+
+
+
+os module:
+operating synstem
+
+import os
+
+1. cwdir()- to check the current working director
+2. dirlist()- list of the directories
+3. mkdir - create a single folder
+4. makedirs - Folder -subfoler
+5. removedir - removedirectory
+6. removedirs - apernt and sub
+7. replce - rplace the text name
+8. os.path.exist - True or false
+9. join()- for exampl gto hjoin the folder and file
+10. split() - separtors - ()- folder and file
+11. abosulte and relative path
