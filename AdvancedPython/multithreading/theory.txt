@@ -1,0 +1,64 @@
+PROCESS: A process is a program that is currently running. Each process
+has its own memory and is heavyweight.
+
+MULTITASKING: Multitasking means executing multiple processes at the
+same time. Types: 1. Process-based multitasking 2. Thread-based
+multitasking
+
+MULTITHREADING: Multithreading means executing multiple threads within a
+single process. It improves performance and CPU utilization.
+
+THREADING IN PYTHON: To use threading: import threading OR from
+threading import *
+
+CREATING THREADS: Two ways: 1. Using Function 2. Using Class
+
+USING FUNCTION - SYNTAX:
+
+from threading import Thread
+
+def function_name(p1, p2): # block of code
+
+t = Thread(target=function_name, name=“Thread-1”, args=(value1, value2),
+kwargs={‘p2’: value}, daemon=True) t.start() t.join()
+
+THREAD METHODS:
+
+is_alive() - Checks if thread is running t.is_alive()
+
+daemon - Runs thread in background t.daemon = True
+
+enumerate() - Returns list of active threads threading.enumerate()
+
+get_ident() - Returns thread ID threading.get_ident()
+
+DAEMON THREAD: A daemon thread runs in the background and automatically
+stops when the main thread ends.
+
+STOPPING A THREAD: Python does not provide stop() method. Use flag
+variable.
+
+RACE CONDITION: Occurs when multiple threads access shared data
+simultaneously causing unexpected results.
+
+MUTEX (LOCK): Ensures only one thread executes critical section at a
+time.
+
+SYNTAX: from threading import Lock lock = Lock()
+
+lock.acquire() # critical section lock.release()
+
+SEMAPHORE: Controls number of threads accessing a resource
+simultaneously.
+
+SYNTAX: from threading import Semaphore sem = Semaphore(2)
+
+sem.acquire() # critical section sem.release()
+
+USING CLASS - SYNTAX:
+
+from threading import Thread
+
+class MyThread(Thread): def run(self): # code to execute
+
+t = MyThread() t.start() t.join()
