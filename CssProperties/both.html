@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Both</title>
+    <style>
+        body{
+            background-color: #ccc;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .parent{
+            border: 2px solid black;
+            height: 100px;
+            width: 100px;
+            border-radius: 10px;
+            background-color: lightgoldenrodyellow;
+            color: #fff;
+            line-height: 90px;
+            text-align: center;
+            transition: border 4s ease-in, background-color 5s linear 1s, transform 6s ease-out;
+            
+        }
+        .parent:hover{
+            border: 5px dashed green;
+            background-color: darkblue;
+            transform: translate(100px,100px);
+            
+        }
+    </style>
+</head>
+<body>
+
+    <div class="parent">
+        hello
+    </div>
+    
+</body>
+</html>

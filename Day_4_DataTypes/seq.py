@@ -5,7 +5,7 @@ print(s1)
 print(type(s1))
 print(id(s1))
 print(sys.getsizeof(s1))
-
+print("-------------------------------")
 # using " "
 s1 = "Hello Anu.." \
 "how are you doing Today...."
@@ -42,8 +42,10 @@ print(l)
 l.remove(100)
 print(l)
 
-l1 = [12,12,True, 14.6, [3,5,6,7,'hello']]
+l1 = [12,12,True, 14.6, [3,5,6,7,'hello',[12,4]]]
 print(l1)
+print("Retreiing")
+print(l1[4][5])
 
 print(l1[3])
 # print(l1[3][2])

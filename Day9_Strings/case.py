@@ -15,7 +15,7 @@ python very fast. im proud of them'''
 print(sent.capitalize())
 print(sent.title())
 
-
+print("************************")
 sen = 'hello\nworld'
 print(sen.capitalize())
 print(sen.title())

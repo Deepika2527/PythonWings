@@ -11,7 +11,7 @@ def values(a,b,c,d):
     print('D :', d)
 values(a= 'A', b= "B", c= "C" ,d ='D')
 print("_____________________________________")
-values( c= "C" ,d ='D',a= 'A', b= "B")
+values( c= "C1" ,d ='D2',a= 'A1', b= "B2")
 
 
 print("Using postional and keyword")
@@ -21,8 +21,8 @@ greet("Anu",time= "Morning")
 
 '''def demo(id,name):
     print(f"Hello {name} your id is {id}")
-demo(name="Anu",101)'''
-
+demo(name="Anu",101)
+'''
 
 def test(a,b,c):
     print(a)

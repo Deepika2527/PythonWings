@@ -1,7 +1,8 @@
 # int - whole no's
 
-age = 25
+age = 26
 print(age)
+print(id(age))
 # print(type(age))
 # print(id(age))
 import sys
@@ -43,3 +44,10 @@ print(comp)
 print(type(comp))
 
 
+
+
+st = 'Hello himaja you are sweet'
+print(st)
+print(st[0])
+st[0] = 'h'
+print(st)

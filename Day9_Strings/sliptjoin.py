@@ -1,7 +1,7 @@
 name = "Python is my fav subject"
 print(name)
-print(name.split())
-print(name.split(','))
+print("test", name.split())
+print("tsets2",name.split(','))
 print(name.split(' '))
 print('Apple, Banana, grapes, kiwi'.split(','))
 print('Apple, Banana, grapes, kiwi, Grapes'.split(',',3))

@@ -1,6 +1,6 @@
 # append
 a= [11,22,34]
-a.append(12)
+a.append([12.33,44])
 print(a)
 
 a.extend([56,78])
@@ -9,7 +9,7 @@ a.extend([(90)])
 '''want to extend with tuple then add ,'''
 a.extend([(57,)])
 print(a)
-
+print("---------")
 # insert
 b= [34,56,78]
 b.insert(2,10)
@@ -20,11 +20,12 @@ print(b)
 '''b.insert(-1,100)
 print(b)'''
 
-
+print("------------------------------")
 z = [1,2,34,4,78]
 z.pop()
 print(z)
-z.pop(2)
+print("----------------------------")
+z.pop(1)
 print(z)
 
 y = [True,False,True,False]

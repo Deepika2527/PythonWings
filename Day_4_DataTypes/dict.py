@@ -1,13 +1,15 @@
 d = {
     "name" : 'Anu',
     "class" : 'Python',
-    "name" :'Anu'
+    "name" :'anu',
+    "city" :'Banglore'
 }
 print(d)
 print(type(d))
 
-
+print("__________________")
 print(d['name'])
+print(d['city'])
 
 
 # None

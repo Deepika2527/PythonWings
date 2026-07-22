@@ -8,7 +8,7 @@ print(sent.rfind('net'))
 print("Using index")
 print(sent.index('js'))
 print(sent.rindex('js'))
-'''print(sent.index('place'))'''
+# print(sent.index('place'))
 
 
 rept = "Abbaccaacabbaaaac"
